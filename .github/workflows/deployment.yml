@@ -1,0 +1,56 @@
+name: Contendance Landing - CD
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v2
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+
+      - name: Login to Docker Hub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DH_USERNAME }}
+          password: ${{ secrets.DH_PASSWORD }}
+
+      - name: Build and push
+        uses: docker/build-push-action@v3
+        with:
+          context: .
+          push: true
+          tags: ${{ secrets.DH_USERNAME }}/contendance-landing:latest
+
+      - name: SSH Remote Commands (Azure)
+        uses: appleboy/ssh-action@v0.1.5
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          script: |
+            docker rm -f contendance-landing
+            docker image rm -f ${{ secrets.DH_USERNAME }}/contendance-landing:latest
+            docker pull ${{ secrets.DH_USERNAME }}/contendance-landing:latest
+            docker run --name contendance-landing -d -p 3000:3000 --restart always ${{ secrets.DH_USERNAME }}/contendance-landing:latest
+
+      - name: SSH Remote Commands (DO)
+        uses: appleboy/ssh-action@v0.1.5
+        with:
+          host: ${{ secrets.DO_SSH_HOST }}
+          username: ${{ secrets.DO_SSH_USERNAME }}
+          password: ${{ secrets.DO_SSH_PASSWORD }}
+          script: |
+            docker rm -f contendance-landing
+            docker image rm -f ${{ secrets.DH_USERNAME }}/contendance-landing:latest
+            docker pull ${{ secrets.DH_USERNAME }}/contendance-landing:latest
+            docker run --name contendance-landing -d -p 3000:3000 --restart always ${{ secrets.DH_USERNAME }}/contendance-landing:latest
