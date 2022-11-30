@@ -1,6 +1,6 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: ["./src/**/*.{js,ts,jsx,tsx}"],
-  darkMode: false,
+  content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontSize: {
       xs: "0.75rem",
@@ -57,6 +57,5 @@ module.exports = {
       270: "270deg",
     },
   },
-  variants: {},
   plugins: [],
 };

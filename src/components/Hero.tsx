@@ -42,7 +42,7 @@ const Hero = () => {
           </div>
         </div>
         <div
-          className="hero-img 2xl:mt-10 sm:mt-20 absolute -right-64 w-52 top-10"
+          className="hero-img lg:mt-10 mt-0 lg:absolute relative lg:-right-64 mx-auto lg:top-10 top-0 2xl:ml-0 xl:-ml-5 -ml-20 !mx-auto"
           data-aos="fade-up"
           data-aos-duration="500"
           data-aos-delay="500"
@@ -50,6 +50,7 @@ const Hero = () => {
           <img
             src="/assets/images/contendance-mockup-phone.png"
             alt="Mockup Contendance"
+            className="2xl:w-full xl:w-4/5 w-full mx-auto"
           />
         </div>
       </div>
