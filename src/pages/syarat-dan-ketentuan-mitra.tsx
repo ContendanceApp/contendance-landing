@@ -6,29 +6,29 @@ import AccordionParent from "../components/AccordionParent";
 import CopyrightText from "../components/CopyrightText";
 
 const SKPengguna = () => {
-    return (
-        <>
-            <Head>
-                <title>Syarat & Ketentuan Mitra AlinaMed Indonesia</title>
-                <meta name="keywords" content="medika" />
-            </Head>
-            <SimpledHero
-                title="Syarat & Ketentuan Mitra"
-                sub="AlinaMed menyediakan dan menjelaskan syarat dan
+  return (
+    <>
+      <Head>
+        <title>Syarat & Ketentuan Mitra AlinaMed Indonesia</title>
+        <meta name="keywords" content="medika" />
+      </Head>
+      <SimpledHero
+        title="Syarat & Ketentuan Mitra"
+        sub="AlinaMed menyediakan dan menjelaskan syarat dan
                         ketentuan untuk mitra"
-            />
-            {/* Accordion */}
-            <div className="container mx-auto my-14 xl:px-12 lg:px-36 md:px-20 sm:px-10 px-8">
-                <AccordionItem
-                    title="PENTING!"
-                    desc={`<p class="text-justify no-indent tracking-tight">
+      />
+      {/* Accordion */}
+      <div className="container mx-auto my-14 xl:px-12 lg:px-36 md:px-20 sm:px-10 px-8">
+        <AccordionItem
+          title="PENTING!"
+          desc={`<p class="text-justify no-indent tracking-tight">
                         BACALAH PERJANJIAN KERJASAMA KEMITRAAN INI DENGAN SEKSAMA SEBELUM MENDAFTAR SEBAGAI MITRA, MENGAKSES ATAU MENGGUNAKAN APLIKASI ALINAMED
                     </p>`}
-                    show={true}
-                />
-                <AccordionItem
-                    title="Ketentuan Umum"
-                    desc={`<p class="text-justify no-indent tracking-tight">
+          show={true}
+        />
+        <AccordionItem
+          title="Ketentuan Umum"
+          desc={`<p class="text-justify no-indent tracking-tight">
                     Persyaratan yang tertera dalam Perjanjian Kerjasama Kemitraan ini (Perjanjian) mengatur hubungan antara anda, perorangan (Mitra), dan Riswanda Noorisa, yang beralamat di Jl. Mojo Klangru Kidul V Blok C Nomer 36, dengan ketentuan-ketentuan sebagai tertera dibawah ini yang dituangkan dalam bentuk Kontrak Elektronik
                     <br />
                     <br />
@@ -58,11 +58,11 @@ const SKPengguna = () => {
                     <p class="text-justify no-indent tracking-tight mt-3">
                     f. Kontrak Elektronik adalah perjanjian para pihak yang dibuat melalui sistem elektronik sebagaimana diatur dalam Undang-undang No. 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik dan Peraturan Pemerintah No. 82 Tahun 2012 tentang Penyelenggaraan Sistem dan Transaksi Elektronik.
                     </p>`}
-                    show={false}
-                />
-                <AccordionItem
-                    title="Hubungan Kerjasama"
-                    desc={`<p class="text-justify no-indent tracking-tight">
+          show={false}
+        />
+        <AccordionItem
+          title="Hubungan Kerjasama"
+          desc={`<p class="text-justify no-indent tracking-tight">
                     a) Perjanjian kerjasama ini berlaku efektif sejak tanggal disetujuinya kontrak ini oleh Mitra. Dengan ini Mitra memberikan persetujuannya atas syarat dan ketentuan yang tercantum di dalam perjanjian kerjasama ini dengan cara melakukan tindakan mengklik persetujuan secara elektronik atas Perjanjian ini, mengakses dan menggunakan Aplikasi ALINAMED, Mitra akan diartikan telah setuju untuk terikat oleh Persyaratan, yang merupakan sebuah hubungan kontraktual kerja-sama antara Mitra, dan Riswanda Noorisa. Mitra mempunyai kewajiban untuk mentaati setiap kebijakan dalam Persyaratan dalam penggunaan dan pemanfaatan Aplikasi ALINAMED. Dengan memberikan persetujuan atas perjanjian kerjasama ini, Mitra juga memberikan persetujuan atas setiap syarat dan ketentuan yang diberlakukan oleh Riswanda Noorisa, sebagaimana dapat dirubah atau ditambahkan oleh Riswanda Noorisa dari waktu ke waktu, sehubungan dengan penyelengaraan jasa layanan home care maupun layanan pesan-antar barang dengan kendaraan bermotor roda dua maupun roda empat atau jasa lainnya yang terkait, sebagaimana berlaku, sebagaimana diinformasikan atau diumumkan kepada Mitra melalui media elektronik ataupun media komunikasi lain yang dipilih oleh Riswanda Noorisa. Apabila Mitra tidak setuju dengan Persyaratan ini, Mitra dapat memilih untuk tidak mengakses atau menggunakan Aplikasi ALINAMED. Mitra setuju bahwa Riswanda Noorisa dapat secara langsung menghentikan penggunaan Aplikasi ALINAMED oleh Mitra, atau secara umum berhenti menawarkan atau menolak akses Mitra kedalam Aplikasi ALINAMED atau bagian mana pun dari Aplikasi ALINAMED, kapan pun untuk alasan apa pun.
                     </p>
                     
@@ -112,15 +112,15 @@ const SKPengguna = () => {
                     <p class="text-justify no-indent tracking-tight mt-3">
                     Mitra menyetujui bahwa Riswanda Noorisa, atas dasar pertimbangannya sendiri, mempunyai hak untuk memberlakukan syarat-syarat tambahan selain yang disebutkan diatas, termasuk namun tidak terbatas kepada meminta Mitra untuk menyerahkan barang atau dokumen tambahan untuk disimpan oleh Riswanda Noorisa (termasuk namun tidak terbatas kepada, kartu keluarga atau barang atau dokumen lain yang ditentukan oleh Riswanda Noorisa) selama Perjanjian ini berlaku ataupun untuk periode lain sebagaimana dapat ditentukan oleh Riswanda Noorisa sendiri, memeriksa keadan fisik maupun surat-surat pendaftaran (Surat Tanda Nomor Kendaraan maupun Bukti Pemilik Kendaraan Bermotor atau dokumen lainnya) atas kendaraan bermotor roda dua yang dimiliki atau dikuasai Mitra, meminta Mitra untuk membayarkan deposit dan menjaga jumlah deposit tersebut dalam rekening Mitra yang terdaftar pada bank yang ditunjuk oleh Riswanda Noorisa atau afiliasi dari Riswanda Noorisa (deposit mana dapat ditarik kembali oleh Mitra apabila Perjanjian ini diakhiri), maupun, apabila diwajibkan oleh peraturan perundang-undangan yang berlaku, meminta Mitra untuk memproses ataupun mendapatkan perizinan lainnya atas nama Mitra pribadi sebagaimana diharuskan berdasarkan peraturan perundang-undangan yang berlaku.
                     </p>`}
-                    show={false}
-                />
-                <AccordionParent
-                    title="Penggunaan Aplikasi AlinaMed"
-                    item={
-                        <>
-                            <AccordionItem
-                                title="Pendaftaran"
-                                desc={`<p class="text-justify no-indent tracking-tight">
+          show={false}
+        />
+        <AccordionParent
+          title="Penggunaan Aplikasi AlinaMed"
+          item={
+            <>
+              <AccordionItem
+                title="Pendaftaran"
+                desc={`<p class="text-justify no-indent tracking-tight">
                                 a) Untuk tujuan penggunaan Aplikasi ALINAMED, Mitra harus:
 
                                 <br />a.membaca syarat dan ketentuan kerja-sama dengan Riswanda Noorisa berdasarkan Persyaratan;
@@ -144,11 +144,11 @@ const SKPengguna = () => {
                             <p class="text-justify no-indent tracking-tight mt-3">
                             e) Dengan membuat Akun, Mitra setuju bahwa Aplikasi ALINAMED mungkin akan mengirimkan Mitra pesan teks informatif (baik melalui SMS atau aplikasi pengirim pesan) sebagai bagian dari penggunaan Mitra atas Aplikasi ALINAMED.
                             </p>`}
-                                show={false}
-                            />
-                            <AccordionItem
-                                title="Penggunaan Aplikasi"
-                                desc={`<p class="text-justify no-indent tracking-tight">
+                show={false}
+              />
+              <AccordionItem
+                title="Penggunaan Aplikasi"
+                desc={`<p class="text-justify no-indent tracking-tight">
                                 a) Penggunaan Aplikasi ALINAMED dilakukan oleh Mitra melalui Ponsel Pintar. Mitra tidak dapat menggunakan Aplikasi ALINAMED melalui sarana elektronik lainnya selain Ponsel Pintar. Mitra dilarang untuk meretas atau melakukan modifikasi Ponsel Pintar atau Aplikasi ALINAMED untuk tujuan lain apapun termasuk menggunakannya untuk segala macam aplikasi dan layanan yang dilarang oleh Riswanda Noorisa.
                             </p>
                     
@@ -179,11 +179,11 @@ const SKPengguna = () => {
                             <p class="text-justify no-indent tracking-tight mt-3">
                             h) Mitra menyetujui bahwa Riswanda Noorisa mempunyai hak: untuk meminta Mitra untuk menjaga jumlah uang yang ada dalam rekening Mitra pada bank yang ditunjuk oleh Riswanda Noorisa diatas batas tertentu, batas mana dapat ditentukan dan dirubah oleh Riswanda Noorisa atas dasar pertimbangannnya sendiri dari waktu ke dan akan diberitahukan kepada Mitra secara tertulis (baik melalui Aplikasi ALINAMED ataupun melalui media lainnya), dan untuk menahan akses Mitra kedalam Akun yang dimilikinya maupun menahan fitur fitur yang ada dalam Aplikasi ALINAMED dalam Akun yang dimiliki Mitra dalam hal (i) jumlah uang yang ada dalam rekening Mitra pada bank yang ditunjuk oleh Riswanda Noorisa berada dibawah batas yang telah ditentukan oleh Riswanda Noorisa, atau (ii) Mitra berhutang sejumlah uang kepada Riswanda Noorisa atau pihak-pihak yang terafiliasi oleh Riswanda Noorisa dan dalam status menunggkak pembayaran atas jumlah uang secara penuh atau jumlah sebesar cicilan atas hutang tersebut.
                             </p>`}
-                                show={false}
-                            />
-                            <AccordionItem
-                                title="Pembayaran Oleh Konsumen"
-                                desc={`<p class="text-justify no-indent tracking-tight">
+                show={false}
+              />
+              <AccordionItem
+                title="Pembayaran Oleh Konsumen"
+                desc={`<p class="text-justify no-indent tracking-tight">
                                 a) Mitra menyetujui bahwa harga dan struktur pembayaran oleh penerima jasa atas jasa yang disediakan oleh Mitra dengan menggunakan Aplikasi ALINAMED ("Konsumen"), termasuk biaya pembatalan pemesanan oleh Konsumen adalah harga yang ditunjukan melalui Aplikasi ALINAMED.
                             </p>
                             
@@ -214,11 +214,11 @@ const SKPengguna = () => {
                             <p class="text-justify no-indent tracking-tight mt-3">
                             e) Setiap Pihak dalam Perjanjian ini bertanggung jawab atas kewajiban pajak yang timbul kepada masing-masing Pihak berdasarkan peraturan perundang-undangan yang berlaku.
                             </p>`}
-                                show={false}
-                            />
-                            <AccordionItem
-                                title="Kode Etik dan Kewajiban Mitra"
-                                desc={`<p class="text-justify no-indent tracking-tight">
+                show={false}
+              />
+              <AccordionItem
+                title="Kode Etik dan Kewajiban Mitra"
+                desc={`<p class="text-justify no-indent tracking-tight">
                                 a) Dalam menyediakan jasa melalui Aplikasi ALINAMED, Mitra setuju untuk mematuhi kode etik yang ditetapkan oleh Riswanda Noorisa sebagai berikut:
                             </p>
                             
@@ -275,11 +275,11 @@ const SKPengguna = () => {
                             </p>
                             
                             <p class="text-justify no-indent tracking-tight mt-3">
-                            14.Mitra dilarang melakukan setiap tindakan yang dapat melanggar Persyaratan, kebijakan maupun kode etik yang telah diinformasikan kepada Mitra oleh Riswanda Noorisa melalui media elektronik (antara lain info driver yang terdapat pada https://alinamed.com/syarat-dan-ketentuan) dan media komunikasi lainnya yang dapat dipilih oleh Riswanda Noorisa.
+                            14.Mitra dilarang melakukan setiap tindakan yang dapat melanggar Persyaratan, kebijakan maupun kode etik yang telah diinformasikan kepada Mitra oleh Riswanda Noorisa melalui media elektronik (antara lain info driver yang terdapat pada https://contendance.com/syarat-dan-ketentuan) dan media komunikasi lainnya yang dapat dipilih oleh Riswanda Noorisa.
                             </p>
                             
                             <p class="text-justify no-indent tracking-tight mt-3">
-                            b) Mitra menyetujui (i) untuk melaporkan kepada Riswanda Noorisa dengan segera apabila Mitra melakukan pelanggaran atas Perjanjian ini dan/atau kode etik yang telah ditentukan ataupun mengetahui bahwa adanya pelanggaran Perjanjian ini dan/atau kode etik yang dilakukan oleh mitra Riswanda Noorisa lainnya dan (ii) untuk menerima dan menjalankan setiap sanksi yang diberlakukan oleh Riswanda Noorisa yang telah diinformasikan oleh Riswanda Noorisa kepada Mitra sebelumnya melalui media elektronik (antara lain info driver yang terdapat pada https://alinamed.com/syarat-dan-ketentuan) dan media komunikasi lainnya yang dipilih oleh Riswanda Noorisa.
+                            b) Mitra menyetujui (i) untuk melaporkan kepada Riswanda Noorisa dengan segera apabila Mitra melakukan pelanggaran atas Perjanjian ini dan/atau kode etik yang telah ditentukan ataupun mengetahui bahwa adanya pelanggaran Perjanjian ini dan/atau kode etik yang dilakukan oleh mitra Riswanda Noorisa lainnya dan (ii) untuk menerima dan menjalankan setiap sanksi yang diberlakukan oleh Riswanda Noorisa yang telah diinformasikan oleh Riswanda Noorisa kepada Mitra sebelumnya melalui media elektronik (antara lain info driver yang terdapat pada https://contendance.com/syarat-dan-ketentuan) dan media komunikasi lainnya yang dipilih oleh Riswanda Noorisa.
                             </p>
                             
                             <p class="text-justify no-indent tracking-tight mt-3">
@@ -293,15 +293,15 @@ const SKPengguna = () => {
                             <p class="text-justify no-indent tracking-tight mt-3">
                             d) Mitra menyetujui bahwa apabila Mitra melanggar ketentuan dalam Perjanjian ini maupun kode etik yang ditetapkan oleh Riswanda Noorisa maupun dalam hal Mitra tidak memenuhi ketentuan-ketentuan yang ditentukan oleh Riswanda Noorisa, Riswanda Noorisa mempunyai hak untuk memberikan sanksi kepada Mitra dalam bentuk yang ditentukan oleh Riswanda Noorisa, termasuk, namun tidak terbatas kepada, pemberian peringatan tertulis, pembatasan atau penolakan akses Mitra kedalam Akun Mitra dalam Aplikasi ALINAMED, pengakhiran Perjanjian ini maupun memproses tindakan Mitra melalui gugatan perdata (termasuk untuk ganti rugi) maupun pidana, sebagaimana berlaku.
                             </p>`}
-                                show={false}
-                            />
-                        </>
-                    }
-                    show={false}
-                />
-                <AccordionItem
-                    title="Keberlakuan Perjanjian"
-                    desc={`<p class="text-justify no-indent tracking-tight">
+                show={false}
+              />
+            </>
+          }
+          show={false}
+        />
+        <AccordionItem
+          title="Keberlakuan Perjanjian"
+          desc={`<p class="text-justify no-indent tracking-tight">
                     a) Perjanjian ini berlaku selama 1 (satu) tahun sejak tanggal Mitra mengklik persetujuan secara elektronik pada akhir dari Perjanjian ini. Apabila Perjanjian ini tidak diakhiri oleh salah satu Pihak sesuai dengan syarat dan ketentuan Perjanjian ini, maka periode keberlakuan Perjanjian ini akan diperpanjang secara otomatis setelah berakhirnya periode 1 (satu) tahun yang disebutkan pada awal pasal ini.
                     </p>
                     
@@ -316,26 +316,26 @@ const SKPengguna = () => {
                     <p class="text-justify no-indent tracking-tight mt-3">
                     d) Mitra mengetahui dan menyetujui bahwa Riswanda Noorisa, berdasarkan hak yang diberikan kepadanya, mempunyai hak untuk menutup akses mitra kepada Akun yang dimilikinya dalam Aplikasi ALINAMED dalam halnya Perjanjian ini diakhiri.
                     </p>`}
-                    show={false}
-                />
-                <AccordionParent
-                    title="Ketentuan Lain"
-                    item={
-                        <>
-                            <AccordionItem
-                                title="Penyelesaian Sengketa"
-                                desc={`<p class="text-justify no-indent tracking-tight">
+          show={false}
+        />
+        <AccordionParent
+          title="Ketentuan Lain"
+          item={
+            <>
+              <AccordionItem
+                title="Penyelesaian Sengketa"
+                desc={`<p class="text-justify no-indent tracking-tight">
                                 a) Mitra dengan ini membebaskan Riswanda Noorisa dari segala macam tuntutan, gugatan, atau tindakan hukum lainnya, baik dalam sebuah gugatan perdata maupun setiap gugatan pidana yang dialami oleh Mitra, dalam bentuk apapun terkait dengan jasa yang ditawarkan, disediakan, diselenggarakan atau diselesaikan oleh Mitra melalui Aplikasi ALINAMED.
                             </p>
                             
                             <p class="text-justify no-indent tracking-tight mt-3">
                             b) Apabila timbul perselisihan sehubungan dengan penafsiran dan/atau pelaksanaan dari Perjanjian ini maka Riswanda Noorisa dan Mitra sepakat untuk menyelesaikan perselisihan dimaksud secara musyawarah. Apabila perselisihan tidak dapat diselesaikan secara musyawarah maka Riswanda Noorisa dan Mitra sepakat untuk menyelesaikan perselisihan dimaksud melalui Pengadilan Negeri Surabaya, dengan tidak mengurangi hak Riswanda Noorisa untuk mengajukan laporan, gugatan atau tuntutan baik perdata maupun pidana melalui Pengadilan Negeri, Kepolisian dan instansi terkait lainnya dalam wilayah Negara Republik Indonesia.
                             </p>`}
-                                show={false}
-                            />
-                            <AccordionItem
-                                title="Kontrak Elektronik"
-                                desc={`<p class="text-justify no-indent tracking-tight">
+                show={false}
+              />
+              <AccordionItem
+                title="Kontrak Elektronik"
+                desc={`<p class="text-justify no-indent tracking-tight">
                                 a) Para Pihak setuju dan sepakat bahwa Perjanjian ini dibuat dalam bentuk Kontrak Elektronik dan tindakan mengklik persetujuan secara elektronik merupakan bentuk pernyataan persetujuan atas ketentuan Perjanjian ini sehingga Perjanjian ini sah, mengikat para pihak dan dapat diberlakukan.
                             </p>
                     
@@ -346,59 +346,59 @@ const SKPengguna = () => {
                             <p class="text-justify no-indent tracking-tight mt-3">
                             c) Para Pihak setuju dan sepakat bahwa segala perubahan, amandemen atas Perjanjian ini dan Persyaratan (termasuk syarat dan ketentuan untuk penggunaan fitur fitur lain dalam Aplikasi ALINAMED), perubahan mana dapat dilakukan oleh Riswanda Noorisa atau pihak Afiliasi Riswanda Noorisa atas dasar pertimbangannya sendiri, juga dapat dibuat secara elektronik salah satunya dalam bentuk Kontrak Elektronik. Perubahan atas Perjanjian ini atau Persyaratan akan berlaku setelah Riswanda Noorisa mengumumkan perubahan Persyaratan tersebut baik melalui Aplikasi ALINAMED ataupun melalui media lainnya yang dipilih oleh Riswanda Noorisa dan Mitra menyetujui bahwa akses atau penggunaan Mitra yang berkelanjutan atas Aplikasi ALINAMED maupun kelanjutan kerjasama Mitra dengan Riswanda Noorisa setelah tanggal pengumuman atas perubahan syarat dan ketentuan dalam Persyaratan akan diartikan bahwa Mitra setuju untuk terikat oleh Persyaratan, sebagaimana telah diubah atau ditambahkan.
                             </p>`}
-                                show={false}
-                            />
-                            <AccordionItem
-                                title="Penggunaan Informasi Pribadi"
-                                desc={`<p class="text-justify no-indent tracking-tight">
+                show={false}
+              />
+              <AccordionItem
+                title="Penggunaan Informasi Pribadi"
+                desc={`<p class="text-justify no-indent tracking-tight">
                                 a) Mitra menyetujui bahwa Riswanda Noorisa berhak untuk mengumpulkan dan menggunakan setiap informasi yang diberikan maupun dihasilkan oleh Mitra, informasi tersebut termasuk namun tidak terbatas kepada informasi pribadi yang diberikan oleh Mitra pada saat pendaftaran Aplikasi ALINAMED (yaitu, nama, alamat, keterangan Surat Izin Mengemudi, nomor telefon, rekening bank Mitra dan lainnya), informasi mengenai lokasi Mitra yang dapat diketahui melalui Aplikasi ALINAMED, informasi mengenai transaksi Mitra melalui Aplikasi ALINAMED, maupun informasi lainnya yang tersedia kepada dan dapat di akses oleh Riswanda Noorisa melalui pengunduhan, instalasi dan penggunaan Aplikasi ALINAMED oleh Mitra, termasuk namun tidak terbatas kepada memberikan ataupun penyebarluasan informasi tersebut kepada Pihak Ketiga manapun, termasuk pemberian informasi yang diperlukan kepada apparat yang berwenang yang memproses klaim jika terdapat keluhan, perselisihan, atau konflik, yang dapat termasuk kecelakaan, yang melibatkan Mitra dan Konsumen dan informasi atau data tersebut diperlukan untuk menyelesaikan keluhan, perselisihan, atau konflik maupun pemberian informasi untuk keperluan komersil Riswanda Noorisa
                             </p>
                             
                             <p class="text-justify no-indent tracking-tight mt-3">
                             b) Mitra dilarang untuk menyebarluaskan atau membagi setiap informasi yang didapatkan olehnya melalui penggunaan Aplikasi ALINAMED, baik informasi mengenai Riswanda Noorisa maupun mengenai Konsumen, kepada pihak ketiga manapun tanpa mendapatkan persetujuan tertulis dari Riswanda Noorisa sebelumnya.
                             </p>`}
-                                show={false}
-                            />
-                            <AccordionItem
-                                title="Pengalihan"
-                                desc={`<p class="text-justify no-indent tracking-tight">
+                show={false}
+              />
+              <AccordionItem
+                title="Pengalihan"
+                desc={`<p class="text-justify no-indent tracking-tight">
                                 Mitra dilarang mengalihkan Perjanjian ini secara keseluruhan atau sebagian tanpa persetujuan tertulis sebelumnya dari Riswanda Noorisa. Mitra memberikan persetujuan kepada Riswanda Noorisa untuk dapat mengalihkan Perjanjian ini secara keseluruhan atau sebagian, termasuk namun tidak terbatas kepada: (i) anak perusahaan atau afiliasi; (ii) pihak ketiga yang pada saat pengalihan atau setelahnya menjadi pemilik saham, usaha atau aset Riswanda Noorisa dikarenakan sebab apapun (termasuk namun tidak terbatas kepada penggabungan, pemisahan, dan pengambilalihan).
                             </p>`}
-                                show={false}
-                            />
-                            <AccordionItem
-                                title="Keterpisahan"
-                                desc={`<p class="text-justify no-indent tracking-tight">
+                show={false}
+              />
+              <AccordionItem
+                title="Keterpisahan"
+                desc={`<p class="text-justify no-indent tracking-tight">
                                 Jika ada ketentuan Perjanjian ini dianggap tidak sah, tidak berlaku atau tidak dapat dilaksanakan secara menyeluruh atau sebagian, maka berdasarkan hukum, ketentuan atau sebagian ketentuan ini harus dianggap sebagai bagian terpisah dari Perjanjian ini, tetapi keabsahan, keberlakuan, dan penerapan ketentuan lainnya dari Perjanjian ini tidak akan terpengaruhi.
                             </p>
                             
                             <p class="text-justify no-indent tracking-tight">
                             Dalam hal ini, pihak-pihak akan mengganti bagian ketentuan yang sudah tidak berlaku, tidak sah atau tidak dapat diberlakukan dengan ketentuan yang berlaku, sah, dan dapat dilaksanakan dan yang, sedapat mungkin, memiliki efek serupa seperti bagian ketentuan yang tidak sah, tidak berlaku, atau tidak dapat dilaksanakan sebagian, dengan mempertimbangkan isi dan tujuan Perjanjian ini
                             </p>`}
-                                show={false}
-                            />
-                            <AccordionItem
-                                title="Keseluruhan & Keberlanjutan Perjanjian"
-                                desc={`<p class="text-justify no-indent tracking-tight">
+                show={false}
+              />
+              <AccordionItem
+                title="Keseluruhan & Keberlanjutan Perjanjian"
+                desc={`<p class="text-justify no-indent tracking-tight">
                                 Perjanjian ini merupakan keseluruhan perjanjian dan pemahaman antara Mitra dengan Riswanda Noorisa berkenaan dengan permasalahan pokok serta menukar dan menggantikan semua perjanjian atau kesanggupan terdahulu antara Mitra dengan Riswanda Noorisa mengenai permasalahan pokok tersebut. Dalam hal Mitra sudah sebelumnya menyetujui dan/atau menandatangani perjanjian serupa dengan Riswanda Noorisa, maka perjanjian tersebut akan dilanjutkan dan digantikan dengan Perjanjian ini dengan syarat dan ketentuan sebagaimana diatur dalam Perjanjian ini.
                             </p>`}
-                                show={false}
-                            />
-                            <AccordionItem
-                                title="Persetujuan Para Pihak"
-                                desc={`<p class="text-justify no-indent tracking-tight">
+                show={false}
+              />
+              <AccordionItem
+                title="Persetujuan Para Pihak"
+                desc={`<p class="text-justify no-indent tracking-tight">
                                 Perjanjian ini dibuat dan diberikannya persetujuan secara elektronik oleh Riswanda Noorisa dan Mitra dalam keadaan sadar dan tanpa ada paksaan dari pihak manapun juga. Setelah tindakan mengklik persetujuan secara elektronik atas Perjanjian ini, maka RIswanda Noorisa dan Mitra setuju untuk dianggap bahwa Mitra telah membaca, mengerti serta menyetujui setiap dan keseluruhan pasal dalam Perjanjian ini dan akan mematuhi dan melaksanakan setiap pasal dalam Perjanjian dengan penuh tanggung jawab
                             </p>`}
-                                show={false}
-                            />
-                        </>
-                    }
-                    show={false}
-                />
-            </div>
-            <CopyrightText />
-        </>
-    );
+                show={false}
+              />
+            </>
+          }
+          show={false}
+        />
+      </div>
+      <CopyrightText />
+    </>
+  );
 };
 
 export default SKPengguna;

@@ -20,7 +20,7 @@ const Footer = () => {
           className="opacity-50"
         />
       </div>
-      <div className="container px-12 mx-auto flex justify-start gap-x-28 mt-10">
+      <div className="container px-12 mx-auto flex xl:flex-row flex-col justify-start gap-x-28 mt-10">
         <div className="foo-brand">
           <Image
             src="/assets/images/contendance-logo-white.svg"
@@ -40,7 +40,7 @@ const Footer = () => {
               Media
             </p>
             <a
-              href="https://www.instagram.com/alinamed_id"
+              href="https://www.instagram.com/contendance_id"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center sub-header-text tracking-tight my-3"
@@ -50,10 +50,10 @@ const Footer = () => {
                 alt="IG"
                 className="mr-2"
               />
-              @alinamed_id
+              @contendance_id
             </a>
             <a
-              href="https://www.facebook.com/pages/category/Medical---Health/Alinamed-Indonesia-106841261171990/"
+              href="https://www.facebook.com/pages/category/Medical---Health/Contendance-Indonesia-106841261171990/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center sub-header-text tracking-tight my-3"
@@ -63,10 +63,10 @@ const Footer = () => {
                 alt="FB"
                 className="mr-2"
               />
-              Alinamed Indonesia
+              Contendance Indonesia
             </a>
             <a
-              href="https://twitter.com/alinamed_id"
+              href="https://twitter.com/contendance_id"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center sub-header-text tracking-tight my-3"
@@ -89,7 +89,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="flex items-center sub-header-text tracking-tight my-3"
             >
-              Jl. Raya ITS, Kec. Sukolilo, Kota SBY
+              Jl. Raya ITS, Sukolilo, Surabaya
             </a>
             <a
               href="tel:6289670230949"
@@ -110,17 +110,17 @@ const Footer = () => {
             <p className="font-bold text-lg text-white tracking-tight mb-4">
               Aplikasi
             </p>
-            <Link href="/syarat-dan-ketentuan-pengguna">
+            <Link href="/">
               <a className="flex items-center sub-header-text tracking-tight my-3">
                 Syarat & Ketentuan Pengguna
               </a>
             </Link>
-            <Link href="/syarat-dan-ketentuan-mitra">
+            <Link href="/">
               <a className="flex items-center sub-header-text tracking-tight my-3">
                 Syarat & Ketentuan Mitra
               </a>
             </Link>
-            <Link href="/cara-pemesanan-dan-pembayaran">
+            <Link href="/">
               <a className="flex items-center sub-header-text tracking-tight my-3">
                 Cara Pemesanan
               </a>

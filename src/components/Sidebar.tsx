@@ -41,11 +41,11 @@ const Sidebar = () => {
       </div>
       <div className="absolute bottom-5 right-5">
         <Image
-          src="/assets/images/alinamed-green.png"
+          src="/assets/images/contendance-green.png"
           width={80}
           height={80}
           alt="AlinaMed Logo"
-          className="icon-alinamed opacity-20"
+          className="icon-contendance opacity-20"
         />
       </div>
     </div>

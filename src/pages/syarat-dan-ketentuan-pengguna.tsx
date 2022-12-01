@@ -5,22 +5,22 @@ import AccordionItem from "../components/AccordionItem";
 import CopyrightText from "../components/CopyrightText";
 
 const SKPengguna = () => {
-    return (
-        <>
-            <Head>
-                <title>Syarat & Ketentuan Pengguna AlinaMed Indonesia</title>
-                <meta name="keywords" content="medika" />
-            </Head>
-            <SimpledHero
-                title="Syarat & Ketentuan Pengguna"
-                sub="AlinaMed menyediakan dan menjelaskan syarat dan
+  return (
+    <>
+      <Head>
+        <title>Syarat & Ketentuan Pengguna AlinaMed Indonesia</title>
+        <meta name="keywords" content="medika" />
+      </Head>
+      <SimpledHero
+        title="Syarat & Ketentuan Pengguna"
+        sub="AlinaMed menyediakan dan menjelaskan syarat dan
                         ketentuan untuk pengguna"
-            />
-            {/* Accordion */}
-            <div className="container mx-auto my-14 xl:px-12 lg:px-36 md:px-20 sm:px-10 px-8">
-                <AccordionItem
-                    title="PENTING!"
-                    desc={`<p class="text-justify tracking-tight">
+      />
+      {/* Accordion */}
+      <div className="container mx-auto my-14 xl:px-12 lg:px-36 md:px-20 sm:px-10 px-8">
+        <AccordionItem
+          title="PENTING!"
+          desc={`<p class="text-justify tracking-tight">
                     Sebagai pengguna Platform (sebagaimana didefinisikan di
                     bawah), Anda diwajibkan untuk membaca Syarat dan
                     Ketentuan Penggunaan ini (“Ketentuan Penggunaan”) dan
@@ -57,11 +57,11 @@ const SKPengguna = () => {
                     perubahan atas syarat dan ketentuan dari Ketentuan
                     Penggunaan ini.
                 </p>`}
-                    show={true}
-                />
-                <AccordionItem
-                    title="Ketentuan Umum"
-                    desc={`<p class="text-justify no-indent  tracking-tight">
+          show={true}
+        />
+        <AccordionItem
+          title="Ketentuan Umum"
+          desc={`<p class="text-justify no-indent  tracking-tight">
                     a. Platform adalah aplikasi (versi Android atau iOS), aplikasi web (aplikasi yang dapat diakses menggunakan web), website yang dikelola oleh Kami sebagaimana diperbarui dari waktu ke waktu.
                     </p>
                     
@@ -124,11 +124,11 @@ const SKPengguna = () => {
                     <p class="text-justify no-indent  tracking-tight mt-3">
                     o. Kami berhak untuk tidak memproses registrasi, membatasi atau menghentikan penggunaan Platform Anda jika Kami memiliki alasan untuk mencurigai bahwa Anda telah melanggar ketentuan dari Ketentua n Penggunaan ini atau peraturan perundang-undangan yang berlaku.
                     </p>`}
-                    show={false}
-                />
-                <AccordionItem
-                    title="Ketentuan Penggunaan Platform"
-                    desc={`<p class="text-justify no-indent  tracking-tight">
+          show={false}
+        />
+        <AccordionItem
+          title="Ketentuan Penggunaan Platform"
+          desc={`<p class="text-justify no-indent  tracking-tight">
                     a. Anda menyatakan dan menjamin bahwa Anda adalah individu yang memiliki hak untuk mengadakan perjanjian yang mengikat berdasarkan hukum Republik Indonesia dan bahwa Anda telah berusia minimal 21 (dua puluh satu) tahun atau sudah menikah dan tidak berada di bawah perwalian atau pengampuan. Jika Anda berusia di bawah 21 tahun dan belum menikah, Anda menyatakan dan menjamin bahwa Anda telah memperoleh izin dari orang tua atau wali hukum Anda, kecuali Anda menyatakan sebaliknya. Dengan memberikan persetujuan, orang tua atau wali hukum Anda setuju untuk bertanggung jawab atas: (i) semua tindakan Anda terkait akses ke dan penggunaan Platform dan/atau Layanan; (ii) biaya apa pun terkait penggunaan Anda atas Layanan apa pun; dan (iii) kepatuhan Anda terhadap Syarat dan Ketentuan ini. Kami berhak untuk menutup atau membatalkan akun Anda apabila hal tersebut tidak benar. Anda selanjutnya menyatakan dan menjamin bahwa Anda memiliki hak, wewenang dan kapasitas untuk menggunakan Layanan dan akan senantiasa mematuhi Ketentuan Penggunaan. Jika Anda mendaftarkan atas nama suatu badan usaha, Anda juga menyatakan bahwa Anda berwenang untuk bertindak untuk dan atas nama badan hukum tersebut dan untuk mengadakan dan mengikatkan badan hukum/entitas tersebut pada Ketentuan Penggunaan Platform.
                     </p>
                     
@@ -186,11 +186,11 @@ const SKPengguna = () => {
                     <p class="text-justify no-indent  tracking-tight mt-3">
                     m. Platform memiliki tautan-tautan dengan situs-situs yang dioperasikan dengan pihak ketiga. Tautan-tautan ini tersedia untuk kenyamanan anda dan hanya akan digunakan untuk menyediakan akses ke situs pihak ketiga dan bukan untuk tujuan lainnya. Kami tidak menjamin kualitas, isi atau informasi dari Produk atau layanyan yang disediaka oleh situs yang dioperasikan oleh pihak ketiga.
                     </p>`}
-                    show={false}
-                />
-                <AccordionItem
-                    title="Layanan"
-                    desc={`<p class="text-justify no-indent  tracking-tight">
+          show={false}
+        />
+        <AccordionItem
+          title="Layanan"
+          desc={`<p class="text-justify no-indent  tracking-tight">
                     a. Fitur Puskesmas
                     <br />i. Fitur ini dapat membantu untuk mencari puskesmas sesuai dengan kebutuhan Anda.
                     <br />ii. Fitur ini dapat membantu anda berkomunikasi dengan puskesmas melalui Whatsapp.
@@ -201,7 +201,7 @@ const SKPengguna = () => {
                     b. Fitur Pemeriksaan Mandiri
                     <br />i. Fitur ini memfasilitasi pemeriksaan mandiri COVID-19 dan Penyakit Kronis bagi Anda yang berhalangan untuk datang langsung ke fasilitas kesehatan.
                     <br />ii. Anda akan Kami minta manjawab pertanyaan sesuai dengan Pedoman Pencegahan dan Pengendalian Covid-19 Revisi ke 5 dari Kementrian Kesehatan Republik Indonesia.
-                    <br />iii. Anda tidak dapat mengubah hasil pemeriksaan tersebut hingga di periksa oleh Tenaga Medis dan petugas kesehatan di puskesmas yang bekerja sama dengan Alinamed.
+                    <br />iii. Anda tidak dapat mengubah hasil pemeriksaan tersebut hingga di periksa oleh Tenaga Medis dan petugas kesehatan di puskesmas yang bekerja sama dengan Contendance.
                     </p>
                     
                     <p class="text-justify no-indent  tracking-tight mt-3">
@@ -212,12 +212,12 @@ const SKPengguna = () => {
                     <br />iv. Fitur Pelaporan Harian Mandiri memudahkan Pemerintah dalam hal ini sebagai pemantau / Penyedia Layanan Pelaporan Harian Mandiri dengan tujuan menekan jumlah penyebaran Virus Covid – 19 dapat memantau pergerakkan Anda / penerima Layanan selama menjalani proses Pelaporan Harian Mandiri.
                     <br />v. Layanan ini adalah layanan sosial dan tidak dibebankan biaya apapun, Kami berkontribusi dalam pencegahan penyebaran COVID-19 dengan membantu pelacakan kondisi harian Anda pada saat melaksanakan Pelaporan Harian Mandiri. Layanan Gratis ini bekerjasama dengan Pemerintah untuk tujuan sosial Dengan menggunakan layanan Pelaporan Harian Mandiri ini Anda dengan ini menyatakan telah mengerti dan memahami syarat dan ketentuan yang berlaku.
                     </p>`}
-                    show={false}
-                />
-                <AccordionItem
-                    title="Biaya & Pembayaran"
-                    desc={`<p class="text-justify no-indent  tracking-tight">
-                    a. Pengunduhan perangkat lunak dan penggunaan Aplikasi Alinamed adalah bebas biaya. Namun, Kami dapat mengenakan biaya untuk penggunaan fitur tertentu pada Aplikasi Alinamed di kemudian hari.
+          show={false}
+        />
+        <AccordionItem
+          title="Biaya & Pembayaran"
+          desc={`<p class="text-justify no-indent  tracking-tight">
+                    a. Pengunduhan perangkat lunak dan penggunaan Aplikasi Contendance adalah bebas biaya. Namun, Kami dapat mengenakan biaya untuk penggunaan fitur tertentu pada Aplikasi Contendance di kemudian hari.
                     </p>
                     
                     <p class="text-justify no-indent  tracking-tight mt-3">
@@ -227,11 +227,11 @@ const SKPengguna = () => {
                     <p class="text-justify no-indent  tracking-tight mt-3">
                     c. Kami dapat mengenakan biaya untuk penggunaan fitur/Jenis Layanan tertentu pada Platform termasuk pengembangannya di kemudian hari.
                     </p>`}
-                    show={false}
-                />
-                <AccordionItem
-                    title="Transaksi Anda"
-                    desc={`<p class="text-justify no-indent  tracking-tight">
+          show={false}
+        />
+        <AccordionItem
+          title="Transaksi Anda"
+          desc={`<p class="text-justify no-indent  tracking-tight">
                     a. Untuk dapat bertransaksi di Platform, Anda dapat menggunakan berbagai metode pembayaran yang tersedia pada Platform termasuk namun tidak terbatas pada GOPAY, KARTU DEBIT dan KARTU KREDIT.
                     </p>
                     
@@ -258,11 +258,11 @@ const SKPengguna = () => {
                     <p class="text-justify no-indent  tracking-tight mt-3">
                     g. Anda memahami dan menyetujui bahwa keluhan yang disampaikan lebih dari 7 (tujuh) hari kalender setelah transaksi selesai bukan merupakan tanggung jawab Kami.
                     </p>`}
-                    show={false}
-                />
-                <AccordionItem
-                    title="Pembatasan & Tanggung Jawab"
-                    desc={`<p class="text-justify no-indent  tracking-tight">
+          show={false}
+        />
+        <AccordionItem
+          title="Pembatasan & Tanggung Jawab"
+          desc={`<p class="text-justify no-indent  tracking-tight">
                     a. Kami tidak bertanggung jawab atas cidera, kematian, kerusakan atau kerugian langsung maupun tidak langsung, materiil maupun immateriil yang disebabkan oleh interaksi antara para Penyedia Layanan dengan Anda melalui Platform. Kami juga tidak bertanggung jawab atas kesalahan atau tindakan apapun yang dilakukan oleh para Penyedia Layanan selama pelaksanaan Layanan. Penyedia Layanan hanya merupakan mitra kerja Kami, bukan pegawai, agen atau perwakilan Kami.
                     </p>
                     
@@ -273,16 +273,16 @@ const SKPengguna = () => {
                     <p class="text-justify no-indent  tracking-tight mt-3">
                     c. Dengan menggunakan fitur Puskesmas, Anda memahami bahwa Anda memiliki hak sepenuhnya untuk memilih puskesmas yang sesuai dengan kebutuhan dan preferensi Anda.
                     </p>`}
-                    show={false}
-                />
-                <AccordionItem
-                    title="HAKI"
-                    desc={`<p class="text-justify no-indent  tracking-tight">
-                    a. Kami adalah pemilik tunggal atas nama, ikon, dan logo Alinamed serta fitur Bicara dengan Tenaga Medis dalam Aplikasi, yang mana merupakan hak cipta dan merek dagang yang dilindungi undang-undang Republik Indonesia. Dilarang keras menggunakan, memodifikasi, atau memasang nama, ikon, logo, atau merek tersebut tanpa persetujuan tertulis dari Kami.
+          show={false}
+        />
+        <AccordionItem
+          title="HAKI"
+          desc={`<p class="text-justify no-indent  tracking-tight">
+                    a. Kami adalah pemilik tunggal atas nama, ikon, dan logo Contendance serta fitur Bicara dengan Tenaga Medis dalam Aplikasi, yang mana merupakan hak cipta dan merek dagang yang dilindungi undang-undang Republik Indonesia. Dilarang keras menggunakan, memodifikasi, atau memasang nama, ikon, logo, atau merek tersebut tanpa persetujuan tertulis dari Kami.
                     </p>
                     
                     <p class="text-justify no-indent  tracking-tight mt-3">
-                    b. ALINAMED adalah pemilik tunggal atas nama, ikon, dan logo “Alinamed.com”, “Alinamed”, serta pemegang hak kekayaan intelektual yang sah atas nama, ikon dan logo “Alinamed.com”, “Alinamed”, yang merupakan hak cipta dan merek yang dilindungi undang-undang. Dilarang keras menggunakan, mengubah, atau memasang nama, ikon, logo, atau merek tersebut tanpa persetujuan tertulis dari ALINAMED.
+                    b. ALINAMED adalah pemilik tunggal atas nama, ikon, dan logo “Contendance.com”, “Contendance”, serta pemegang hak kekayaan intelektual yang sah atas nama, ikon dan logo “Contendance.com”, “Contendance”, yang merupakan hak cipta dan merek yang dilindungi undang-undang. Dilarang keras menggunakan, mengubah, atau memasang nama, ikon, logo, atau merek tersebut tanpa persetujuan tertulis dari ALINAMED.
                     </p>
                     
                     <p class="text-justify no-indent  tracking-tight mt-3">
@@ -296,19 +296,19 @@ const SKPengguna = () => {
                     <p class="text-justify no-indent  tracking-tight mt-3">
                     e. Kami memiliki hak sepenuhnya untuk melakukan tindakan hukum terhadap setiap pelanggaran yang dilakukan oleh Anda terkait dengan hak kekayaan intelektual terkait Platform.
                     </p>`}
-                    show={false}
-                />
-                <AccordionItem
-                    title="Sosialisasi"
-                    desc={`<p class="text-justify no-indent  tracking-tight">
+          show={false}
+        />
+        <AccordionItem
+          title="Sosialisasi"
+          desc={`<p class="text-justify no-indent  tracking-tight">
                     Platform dapat memuat sosialisasi mengenai produk dan/atau layanan yang berkaitan Covid-19 yang disediakan oleh pihak ketiga (“Sosialisasi”). Seluruh informasi mengenai Sosialisasi disediakan oleh Sosialisasi. Kami tidak memberikan dukungan (endorsement) atas Sosialisasi mana pun terkait Covid-19. Kami tidak melakukan proses komersialisasi atas Sosialisasi mana pun terkait Covid-19. Kami tidak bertanggung jawab atas Sosialisasi mau pun setiap informasi yang terdapat dalam Sosialisasi tersebut. Komunikasi atau transaksi Anda dengan pihak ketiga penyedia Sosialisasi dan setiap syarat, ketentuan, jaminan atau pernyataan yang terkait dengan transaksi tersebut semata – mata merupakan hubungan antara Anda dengan penyedia Sosialisasi tersebut.
                     </p>`}
-                    show={false}
-                />
-                <AccordionItem
-                    title="Pemberitahuan"
-                    desc={`<p class="text-justify no-indent  tracking-tight">
-                    a. Semua pemberitahuan atau permintaan informasi kepada atau tentang Kami akan diproses jika dibuat secara tertulis dan dikirimkan ke alamat kami di: Jl Dharmawangsa No. 33B, Kel. Airlangga, Kec. Gubeng, Kota Surabaya, Prov. Jawa Timur atau alamat surat elektronik Kami di:alinamed.id@gmail.com atau call center kami di 089678645902 atau 031-9944-6670.
+          show={false}
+        />
+        <AccordionItem
+          title="Pemberitahuan"
+          desc={`<p class="text-justify no-indent  tracking-tight">
+                    a. Semua pemberitahuan atau permintaan informasi kepada atau tentang Kami akan diproses jika dibuat secara tertulis dan dikirimkan ke alamat kami di: Jl Dharmawangsa No. 33B, Kel. Airlangga, Kec. Gubeng, Kota Surabaya, Prov. Jawa Timur atau alamat surat elektronik Kami di:contendance.id@gmail.com atau call center kami di 089678645902 atau 031-9944-6670.
                     </p>
                     
                     <p class="text-justify no-indent  tracking-tight mt-3"">
@@ -316,18 +316,18 @@ const SKPengguna = () => {
                     <br />i. Kami dapat menunjukkan bahwa pemberitahuan tersebut, baik dalam bentuk fisik maupun elektronik, telah dikirimkan kepada Anda tersebut; atau
                     <br />ii. Kami telah memasang pemberitahuan tersebut di Platform yang dapat diakses oleh umum tanpa dikenakan biaya.
                     </p>`}
-                    show={false}
-                />
-                <AccordionItem
-                    title="Keamanan Platform"
-                    desc={`<p class="text-justify no-indent  tracking-tight">
+          show={false}
+        />
+        <AccordionItem
+          title="Keamanan Platform"
+          desc={`<p class="text-justify no-indent  tracking-tight">
                     Kami senantiasa melakukan upaya yang wajar untuk menjaga Platform ini berfungsi dan berjalan lancar. Bagaimana pun juga, kami tidak bertanggung jawab dan tidak akan bertanggung jawab atas ketidaktersediaan Platform dan/atau fitur Layanan yang disebabkan oleh berbagai alasan, termasuk namun tidak terbatas pada keperluan pemeliharaan atau masalah teknis. Namun demikian, Anda mengetahui dan setuju bahwa transmisi atau akses internet tidak selamanya menciptakan suatu transaksi pembayaran yang aman dan pribadi, dan karenanya setiap pesan atau informasi yang Anda kirimkan atau gunakan dalam Platform mungkin dapat dibajak atau diambil oleh pihak ketiga yang tidak bertanggung jawab.
                     </p>`}
-                    show={false}
-                />
-                <AccordionItem
-                    title="Tidak Ada Jaminan"
-                    desc={`<p class="text-justify no-indent  tracking-tight">
+          show={false}
+        />
+        <AccordionItem
+          title="Tidak Ada Jaminan"
+          desc={`<p class="text-justify no-indent  tracking-tight">
                     Platform ini disediakan “sebagaimana adanya” dalam arti Anda mengakui dan menyetujui bahwa seluruh risiko yang ditimbulkan dari penggunaan Platform oleh Anda tetap sepenuhnya ada pada Anda dan Anda tidak memiliki hak untuk meminta ganti rugi apapun dari Kami. Kami TIDAK memberikan pernyataan ataupun jaminan terkait dengan:
                     </p>
 
@@ -350,11 +350,11 @@ const SKPengguna = () => {
                     <p class="text-justify no-indent  tracking-tight mt-3"">
                     e. bahwa kualitas produk, fitur dan informasi yang tersedia akan memenuhi harapan dan kebutuhan Anda.
                     </p>`}
-                    show={false}
-                />
-                <AccordionItem
-                    title="Kebijakan Privasi"
-                    desc={`<p class="text-justify tracking-tight">
+          show={false}
+        />
+        <AccordionItem
+          title="Kebijakan Privasi"
+          desc={`<p class="text-justify tracking-tight">
                     Kebijakan privasi ini (“Kebijakan Privasi”) akan menjelaskan bagaimana PT Alina Medika Indonesia dan setiap anak perusahaan serta perusahaan afiliasinya (“Kami”), memperoleh, mengumpulkan, menggunakan, menampilkan, mengumumkan, mengungkapkan, memproses, membukakan akses, menyimpan, mengirim, memberi, mengalihkan, mengolah, mengelola, memusnahkan dan melindungi informasi dan data pribadi (secara bersama-sama, “Pemanfaatan”) yang anda sebagai pengguna (“Anda”) Platform (sebagaimana didefinisikan di bawah) berikan sebagaimana diminta maupun pada saat menggunakan Platform (“Data Pribadi”). Perlu dicatat bahwa Data Pribadi di sini tidak termasuk Data Pribadi yang telah tersedia di domain publik.
                     </p>
 
@@ -445,13 +445,13 @@ const SKPengguna = () => {
                     
                     <p class="text-justify no-indent  tracking-tight mt-3"">
                     I. Pertanyaan, keluhan dan kontak
-                    Jika Anda memiliki pertanyaan tentang kebijakan kerahasiaan ini, peraturan-peraturan Kami, hak Anda, dan hubungan Anda dengan Platform, silakan mengirim surat elektronik Kami di: alinamed.id@gmail.com atau call center kami di 089678645902 atau 031-9944-6670.
+                    Jika Anda memiliki pertanyaan tentang kebijakan kerahasiaan ini, peraturan-peraturan Kami, hak Anda, dan hubungan Anda dengan Platform, silakan mengirim surat elektronik Kami di: contendance.id@gmail.com atau call center kami di 089678645902 atau 031-9944-6670.
                     </p>`}
-                    show={false}
-                />
-                <AccordionItem
-                    title="Penutup"
-                    desc={`<p class="text-justify no-indent  tracking-tight">
+          show={false}
+        />
+        <AccordionItem
+          title="Penutup"
+          desc={`<p class="text-justify no-indent  tracking-tight">
                     a. Hubungan Kami dengan Anda merupakan suatu hubungan independen dan di antara kita tidak ada hubungan keagenan, kemitraan, usaha patungan, karyawan-perusahaan atau pemilik waralaba-pewaralaba yang akan timbul dengan adanya Ketentuan Penggunaan ini.
                     </p>
 
@@ -478,12 +478,12 @@ const SKPengguna = () => {
                     <p class="text-justify no-indent  tracking-tight mt-3"">
                     g. Segala sengketa yang berkaitan dengan Ketentuan Penggunaan ini, diselesaikan secara musyawarah untuk mufakat atau melalui Badan Arbitrase Nasional Indonesia (BANI), sesuai dengan prosedur yang berlaku di BANI. Apabila kedua belah pihak tidak sepakat untuk menyelesaikannya sengketa di BANI, maka sengketa akan diselesaikan melalui Pengadilan Negeri Jakarta Selatan
                     </p>`}
-                    show={false}
-                />
-            </div>
-            <CopyrightText />
-        </>
-    );
+          show={false}
+        />
+      </div>
+      <CopyrightText />
+    </>
+  );
 };
 
 export default SKPengguna;

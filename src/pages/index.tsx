@@ -184,7 +184,7 @@ const Index = () => {
             width={500}
             height={500}
             alt="AlinaMed Logo"
-            className="icon-alinamed opacity-20"
+            className="icon-contendance opacity-20"
           />
         </div>
       </div>
@@ -383,7 +383,7 @@ const Index = () => {
                         width={30}
                         height={30}
                         alt="AlinaMed Logo"
-                        className="icon-alinamed opacity-20"
+                        className="icon-contendance opacity-20"
                       />
                     </div>
                   </a>
@@ -582,24 +582,24 @@ const Index = () => {
           >
             <CardLiputan
               image="urbanasia"
-              link="https://www.urbanasia.com/alinamed-aplikasi-yang-bisa-datangkan-dokter-hingga-antarkan-obat-U9985"
+              link="https://www.urbanasia.com/contendance-aplikasi-yang-bisa-datangkan-dokter-hingga-antarkan-obat-U9985"
             />
             <CardLiputan
               image="unairnews"
-              link="http://news.unair.ac.id/2020/03/02/alinamed-aplikasi-buatan-alumni-fk-unair-yang-bisa-datangkan-dokter-di-mana-dan-kapan-saja/"
+              link="http://news.unair.ac.id/2020/03/02/contendance-aplikasi-buatan-alumni-fk-unair-yang-bisa-datangkan-dokter-di-mana-dan-kapan-saja/"
             />
             <CardLiputan
               image="krjogja"
-              link="https://www.krjogja.com/angkringan/gaya-hidup/teknologi/alinamed-aplikasi-anak-bangsa-bisa-panggil-dokter-ke-rumah/"
+              link="https://www.krjogja.com/angkringan/gaya-hidup/teknologi/contendance-aplikasi-anak-bangsa-bisa-panggil-dokter-ke-rumah/"
             />
             <CardLiputan
               image="kumparan"
-              link="https://kumparan.com/beritaanaksurabaya/mengenal-alinamed-aplikasi-perawat-luka-diabetes-luka-bakar-dan-asam-urat-1uTO1yZ72aa"
+              link="https://kumparan.com/beritaanaksurabaya/mengenal-contendance-aplikasi-perawat-luka-diabetes-luka-bakar-dan-asam-urat-1uTO1yZ72aa"
             />
             <CardLiputan image="narasi" link="https://youtu.be/nHsm1ulpYqs" />
             <CardLiputan
               image="detiknews"
-              link="https://news.detik.com/berita-jawa-timur/d-5235516/alinamed-aplikasi-yang-bisa-datangkan-dokter-di-mana-dan-kapan-saja"
+              link="https://news.detik.com/berita-jawa-timur/d-5235516/contendance-aplikasi-yang-bisa-datangkan-dokter-di-mana-dan-kapan-saja"
             />
             <CardLiputan
               image="telkomsel"
@@ -673,7 +673,7 @@ const Index = () => {
                   width={100}
                   height={100}
                   alt="AlinaMed Logo"
-                  className="icon-alinamed opacity-20"
+                  className="icon-contendance opacity-20"
                 />
               </div>
               <div></div>

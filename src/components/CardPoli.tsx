@@ -69,7 +69,7 @@ const CardPoli = (props: CardProps) => {
             width={40}
             height={40}
             alt="AlinaMed Logo"
-            className="icon-alinamed opacity-20"
+            className="icon-contendance opacity-20"
           />
         </div>
       </div>

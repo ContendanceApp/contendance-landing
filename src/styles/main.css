@@ -566,7 +566,7 @@ input[type="number"] {
 
 @media screen and (max-width: 1440px) {
   .hero {
-    height: 1100px;
+    height: 115vh;
   }
 
   .hero-img {
@@ -579,10 +579,6 @@ input[type="number"] {
 }
 
 @media screen and (max-width: 1366px) {
-  .hero {
-    height: 900px;
-  }
-
   .hero-img {
     width: 800px;
   }

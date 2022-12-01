@@ -50,7 +50,7 @@ const Hero = () => {
           <img
             src="/assets/images/contendance-mockup-phone.png"
             alt="Mockup Contendance"
-            className="2xl:w-full xl:w-4/5 w-full mx-auto"
+            className="2xl:w-full xl:w-4/6 w-full mx-auto"
           />
         </div>
       </div>

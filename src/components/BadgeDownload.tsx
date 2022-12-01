@@ -24,7 +24,7 @@ const BadgeDownload = () => {
       </a>
       {/* <a
                 target="_blank"
-                href="https://apps.apple.com/id/app/alinamed/id1483608101?l=id"
+                href="https://apps.apple.com/id/app/contendance/id1483608101?l=id"
                 rel="noopener noreferrer"
                 data-aos="fade-up"
                 data-aos-duration="500"
